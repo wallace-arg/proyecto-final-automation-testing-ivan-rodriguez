@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+.idea/
+.vscode/
+automation.log
+reports/report.html
+reports/screenshots/*
+!reports/screenshots/.gitkeep

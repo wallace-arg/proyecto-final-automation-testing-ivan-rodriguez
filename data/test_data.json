@@ -1,0 +1,44 @@
+{
+  "base_url": "https://www.saucedemo.com",
+  "valid_user": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalid_user": {
+    "username": "usuario_invalido",
+    "password": "clave_incorrecta",
+    "expected_error": "Username and password do not match any user in this service"
+  },
+  "sorting": {
+    "name_az": "az",
+    "name_za": "za",
+    "price_low_high": "lohi",
+    "price_high_low": "hilo"
+  },
+  "products": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bike Light",
+    "Sauce Labs Bolt T-Shirt"
+  ],
+  "checkout_info": {
+    "first_name": "Iván",
+    "last_name": "Rodríguez",
+    "postal_code": "1000"
+  },
+  "checkout_complete_message": "Thank you for your order!",
+  "api": {
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "max_response_time_seconds": 3,
+    "new_post": {
+      "title": "Proyecto final automation testing",
+      "body": "Publicación creada desde pruebas automatizadas",
+      "userId": 1
+    },
+    "update_post": {
+      "id": 1,
+      "title": "Título actualizado",
+      "body": "Contenido actualizado",
+      "userId": 1
+    }
+  }
+}
